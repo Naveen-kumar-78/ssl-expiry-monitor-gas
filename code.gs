@@ -66,7 +66,7 @@ function updateSSLCertExpiry() {
 }
 
 function sendExpiryAlert(expiryData, projectNames, sheetUrl, todayDateString) {
-  var recipients = ["naveen.kumar@bcits.in", "team_cloudl1support@bcits.co.in"];
+  var recipients = ["your@gmail.com", "your@gmail.com"];
   var projectList = projectNames.join(", ");
   var subject = `⚠️ SSL Expiry Alert – ${projectList} – Action Required`;
 
